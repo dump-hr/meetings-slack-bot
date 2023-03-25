@@ -9,6 +9,11 @@
     "start": "node dist/index.js"
   },
   "devDependencies": {
+    "@types/node": "^18.15.9",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3"
   }
 }
