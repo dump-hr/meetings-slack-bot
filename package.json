@@ -1,0 +1,14 @@
+{
+  "name": "meetings-slack-bot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
