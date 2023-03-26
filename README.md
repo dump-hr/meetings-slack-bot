@@ -17,16 +17,21 @@ node .
 Setup tools:
 
 ```bash
-# Git, Cron
-sudo apt install git cron
+sudo apt install git curl cron
 
-# Node.js
+# node.js
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install 18
 nvm use 18
 
-# Yarn
+# yarn
 npm install --global yarn
+```
+
+Set time zone:
+
+```bash
+sudo timedatectl set-timezone Europe/Berlin
 ```
 
 Build project:
